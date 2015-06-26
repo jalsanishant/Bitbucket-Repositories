@@ -1,2 +1,15 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<% provide(:title, "Help") %>
+
+ <head>
+<title><%= yield(:title) %> </title>
+</head>
+<body>
+<h1>Help</h1>
+<p>
+  Start knowing about Places to visit   
+<a href="https://world-tourism-jalsanishant.c9.io/static_pages/aboutthecountries">About the countries</a>.
+To get help with the Trip Plan, see 
+<a href="https://world-tourism-jalsanishant.c9.io/static_pages/worldtripadvisor"><em>World Trip Advisor</em>
+</a>.
+</p>
+</body>
